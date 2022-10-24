@@ -1,0 +1,176 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+
+a{
+    text-decoration: none;
+}
+ul,ol{
+    list-style: none;
+}
+.container{
+    width: 1140px;
+    margin: 0 auto;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* nav */
+
+.nav_left{
+    width: 30%;
+    text-align: center;
+    margin-top: 40px;
+
+}
+.nav_left ul li,
+.nav_right ul li{
+    display: inline;
+    padding: 20px; 
+}
+.nav_left ul li a,
+.nav_right ul li a{
+    color: #686C75  ;
+}
+ 
+.nav-middle{
+    width: 40%;
+    margin-top: 40px;
+    text-align: center;
+}
+.nav_right{
+    width: 30%;
+    margin-top: 40px;
+}
+/* banner */
+.mainBnr{
+    height: 700px;
+}
+.bnr-text{
+    width: 35%;
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+}
+.bnr-text img{
+    position: absolute;
+    position: relative;
+    bottom: 105px;
+    left: 90px;
+}
+.bnr-text h1{
+    font-size: 43px;
+    font-weight: 700px;
+}
+.bnr-mainImg{
+    width: 45%;
+    margin-top: 100px;
+    position: relative;
+}
+.bnr-mainImg img{
+    border-radius:  45% 45% 0 0; 
+}
+.bnr-mainImg .bnr-subImg1{
+    position: absolute;
+    bottom: 380px;
+    left: 220px;
+}
+.bnr-subImg2 img{
+    position: relative;
+    top: 320px ;
+    right: 124px;
+}
+.bnr-right{
+    width: 20%;
+}
+.bnr-subImg3 img{
+    position: relative;
+    top: -155px;
+    left: 10px;
+}
+/* glass */
+.cssGlass{
+    background-color: rgba(255, 255, 255, .15);  
+    backdrop-filter: blur(10px);
+    width: 550px;
+    border-radius: 5px;
+    position: relative;
+    height: 100px;
+    bottom: 100px;
+    left: 220px;
+    -webkit-box-shadow: -2px 2px 57px -8px rgba(0,0,0,0.75);
+-moz-box-shadow: -2px 2px 57px -8px rgba(0,0,0,0.75);
+box-shadow: -2px 2px 57px -8px rgba(0,0,0,0.75);
+}
+.city ul li{
+    float: left;
+    padding: 20px;
+    line-height: 50px;
+}
+.city ul li p{
+    color: #686C75;
+}
+.visitBtn{
+   
+}
+.visitBtn a{
+    color: #fff;
+    background-color: #FD5B2F;
+    border-radius: 5px;
+    position: absolute;
+    left: 380px;
+    padding: 5px 20px;
+    
+}
+/* visitor */
+.visitor{
+    margin-left: 165px;
+    bottom: 70px;
+    position: relative;
+}
+.visitImg ul li{
+    float: left;
+}
+.visitorPic8,
+.visitorPic2,
+.visitorPic3,
+.visitorPic4,
+.visitorPic5,
+.visitorPic6,
+.visitorPic7{
+    position: relative;
+    right: 12px;
+}
+.visitorPic3{
+    right: 24px;
+}
+.visitorPic4{
+    right: 36px;
+}
+.visitorPic5{
+    right: 48px;
+}
+.visitorPic6{
+    right: 60px;
+}
+.visitorPic7{
+    right: 72px;
+    border-radius: 50%;
+    background-color: rgb(71, 214, 214);
+    height: 35px;
+    width: 35px;
+    
+}
+.visitorPic7 a{
+    color: #fff;
+    line-height: 35px;
+}
+.visitorPic8{
+    right: 60px;
+    line-height: 40px;
+}
